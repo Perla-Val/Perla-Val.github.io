@@ -1,0 +1,41 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: white;
+}
+
+.common {
+    background-color: white;
+    border: solid 3px #808080;
+    position: absolute;
+    
+}
+
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px; 
+    height: 100px;
+    z-index: 2;
+}
+
+
+
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    left: 5px;
+    right: 5px;
+}
+
+
+
+.footer{
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+}
